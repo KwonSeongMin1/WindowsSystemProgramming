@@ -18,5 +18,14 @@
     <ClCompile Include="Unicode\unicode.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="64bit\pointer.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="64bit\test64bit.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="error\error.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

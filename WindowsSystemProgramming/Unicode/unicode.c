@@ -1,8 +1,13 @@
 #include <stdio.h>
 #include <string.h>
+#include <Windows.h>
 
 int main() {
+
+	// mbcs 형식 (한글 2byte, 영어 1byte)
 	char str1[] = "Hello!! 테스트";
+
+	// wbcs 형식 (문자 2byte)
 	wchar_t str2[] = L"Hello!! 테스트";
 
 	int str1_size = sizeof(str1);

@@ -27,5 +27,14 @@
     <ClCompile Include="error\error.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="process\createProcess.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="kernal_object\test.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="kernal_object\createOperation.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

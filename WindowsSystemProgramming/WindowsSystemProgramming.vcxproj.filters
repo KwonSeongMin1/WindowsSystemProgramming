@@ -36,5 +36,29 @@
     <ClCompile Include="kernal_object\createOperation.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="ipc\mailslot\receiver.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ipc\mailslot\sender.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ipc\WaitForSingleObject.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ipc\duplicateHandle.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ipc\duplicateChild.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ipc\namelessPipe\namelessPipe.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ipc\namelessPipe\namelessPipeParent1.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ipc\namelessPipe\namelessPipeParent2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

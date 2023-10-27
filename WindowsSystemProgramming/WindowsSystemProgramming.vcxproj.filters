@@ -45,10 +45,10 @@
     <ClCompile Include="ipc\WaitForSingleObject.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ipc\duplicateHandle.c">
+    <ClCompile Include="ipc\duplicate\duplicateHandle.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ipc\duplicateChild.c">
+    <ClCompile Include="ipc\duplicate\duplicateChild.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="ipc\namelessPipe\namelessPipe.c">
@@ -58,6 +58,12 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="ipc\namelessPipe\namelessPipeParent2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ipc\env\envParent.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ipc\env\envChild.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
